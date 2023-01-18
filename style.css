@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    animation: backgroundan 2s infinite;
+}
+
+
+
+h1{
+  margin-top: 400px;
+  font-weight: 500;
+  animation: coloran 2s infinite;
+}
+
+.goinv2{
+   animation: goinv 1s forwards;
+}
+
+
+@keyframes goinv{
+    0%{
+    opacity: 1;
+    }
+    100%{
+    opacity: 0;
+    }
+}
+
+
+@keyframes backgroundan{
+    0%{
+    background-color: white;
+    }
+    50%{
+    background-color: black;
+    }
+    100%{
+    background-color: white;
+    }
+}
+
+@keyframes coloran{
+    0%{
+    color: black;
+    }
+    50%{
+    color: white;
+    }
+    100%{
+    color: black;
+    }
+}

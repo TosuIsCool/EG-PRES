@@ -1,0 +1,712 @@
+.body,
+html {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #202746;
+    z-index: 0;
+}
+
+@keyframes changewidth {
+    0% {
+        height: 200px;
+    }
+
+    100% {
+        height: 225px;
+    }
+}
+
+@keyframes changewidth2 {
+    0% {
+        height: 225px;
+    }
+
+    100% {
+        height: 200px;
+    }
+}
+
+.box1:hover {
+    animation: changewidth 1s forwards;
+}
+
+.box2:hover {
+    animation: changewidth 1s forwards;
+}
+
+.box3:hover {
+    animation: changewidth 1s forwards;
+}
+
+
+
+.box1 {
+    position: absolute;
+    top: 100px;
+    width: 900px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #0e0f34;
+    cursor: pointer;
+    animation: changewidth2 1s forwards;
+}
+
+.killbox {
+    position: absolute;
+    top: 100px;
+    width: 900px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #0e0f34;
+    animation: changewidth2 1s forwards;
+    animation: opac 1s forwards;
+}
+
+
+
+.maintext {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    z-index: 10;
+    top: -20px;
+    left: 0px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.killlis {
+    position: absolute;
+    color: white;
+    top: 60px;
+    left: 27px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    animation: opac 1s forwards;
+}
+
+.killlis2 {
+    position: absolute;
+    color: white;
+    top: 90px;
+    left: 0px;
+    right: 103px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    animation: opac 1s forwards;
+}
+
+.killlis3 {
+    position: absolute;
+    color: white;
+    top: 120px;
+    left: 0px;
+    right: 153px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    animation: opac 1s forwards;
+}
+
+
+.firstli {
+    position: absolute;
+    color: white;
+    top: 60px;
+    left: 27px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+@keyframes opac {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.firstli2 {
+    position: absolute;
+    color: white;
+    top: 90px;
+    left: 0px;
+    right: 103px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.firstli3 {
+    position: absolute;
+    color: white;
+    top: 120px;
+    left: 0px;
+    right: 153px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.box1image {
+    position: relative;
+    right: 311px;
+    width: 320px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    animation: changewidth2 1s forwards;
+}
+
+.box2 {
+    position: absolute;
+    top: 350px;
+    width: 900px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #0e0f34;
+    cursor: pointer;
+    animation: widthchange2 1s forwards;
+    animation: changewidth2 1s forwards;
+}
+
+.killbox2 {
+    position: absolute;
+    top: 350px;
+    width: 900px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #0e0f34;
+    animation: opac 1s forwards;
+}
+
+.maintext2 {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    z-index: 10;
+    top: -20px;
+    left: 192px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.killsecondli {
+    position: absolute;
+    color: white;
+    top: 60px;
+    left: 50px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    animation: opac 1s forwards;
+}
+
+.killsecondli2 {
+    position: absolute;
+    color: white;
+    top: 90px;
+    left: 58px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    animation: opac 1s forwards;
+}
+
+.killsecondli3 {
+    position: absolute;
+    color: white;
+    top: 120px;
+    left: 61px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    animation: opac 1s forwards;
+}
+
+.killsecondli4 {
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 0px;
+    right: 63px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    animation: opac 1s forwards;
+}
+
+.secondli {
+    position: absolute;
+    color: white;
+    top: 60px;
+    left: 50px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.secondli2 {
+    position: absolute;
+    color: white;
+    top: 90px;
+    left: 58px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.secondli3 {
+    position: absolute;
+    color: white;
+    top: 120px;
+    left: 61px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.secondli4 {
+    position: absolute;
+    color: white;
+    top: 150px;
+    left: 0px;
+    right: 63px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.box2image {
+    position: relative;
+    right: 311px;
+    width: 320px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    animation: changewidth2 1s forwards;
+}
+
+.box3 {
+    position: absolute;
+    top: 600px;
+    width: 900px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #0e0f34;
+    cursor: pointer;
+    animation: changewidth2 1s forwards;
+}
+
+.killbox3 {
+    position: absolute;
+    top: 600px;
+    width: 900px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #0e0f34;
+}
+
+.killbox3 {
+    position: absolute;
+    top: 600px;
+    width: 900px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #0e0f34;
+    animation: opac 1s forwards;
+}
+
+
+.maintext3 {
+    position: absolute;
+    color: white;
+    font-size: 35px;
+    z-index: 10;
+    top: -20px;
+    left: 228px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.killthirdli {
+    position: absolute;
+    color: white;
+    top: 60px;
+    left: 13px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    animation: opac 1s forwards;
+}
+
+.killthirdli2 {
+    position: absolute;
+    color: white;
+    top: 90px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    animation: opac 1s forwards;
+}
+
+.thirdli {
+    position: absolute;
+    color: white;
+    top: 60px;
+    left: 13px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.thirdli2 {
+    position: absolute;
+    color: white;
+    top: 90px;
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.box3image {
+    position: relative;
+    right: 311px;
+    width: 320px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    animation: changewidth2 1s forwards;
+}
+
+.animationimgadd {
+    animation: changewidth 1s forwards;
+}
+
+.animationcloseadd {
+    animation: changewidth2 1s forwards;
+}
+
+@keyframes showopac {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.killboxexperience {
+    width: 0px;
+    height: 0px;
+}
+
+.boxexperience {
+    position: absolute;
+    top: 70px;
+    width: 900px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 900px;
+    height: 800px;
+    background-color: #0e0f34;
+    animation: showopac 1s forwards;
+}
+
+
+.experiencebtn {
+    position: relative;
+    top: 730px;
+    right: 370px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 1 1 auto;
+    font-family: Inter,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.experiencebox{
+    width: 700px;
+    height: 60px;
+    background-color: #202746;
+}
+
+.experiencetext{
+    position: relative;
+    top: 15px;
+    color: #898ea4;
+    font-size: 19px;
+}
+
+
+.linksda{
+  color: #22a2c9;
+}
+.spaced{
+   color: #898ea4;;
+}
+
+.thewhere{
+   color: #6679cc;;
+}
+
+.killtext{
+    font-size: 0;
+}
+
+
+.professionbtn {
+    position: relative;
+    top: 730px;
+    right: 370px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 1 1 auto;
+    font-family: Inter,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.boxprofession{
+    position: absolute;
+    top: 70px;
+    width: 900px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 900px;
+    height: 800px;
+    background-color: #0e0f34;
+    animation: showopac 1s forwards;
+}
+
+.professionbox{
+    width: 700px;
+    height: 60px;
+    background-color: #202746;
+}
+
+.professiontext{
+    position: relative;
+    top: 14px;
+    color: #898ea4;
+    font-size: 16px;
+}
+
+
+.killimage{
+   width: 0;
+}
+
+.spanimg{
+    position: relative;
+    top: 60px;
+    width: 700px;
+    position: relative;
+    z-index: 30;
+    border-radius: 20px;
+    animation: showopac 1s forwards;
+}
+
+.salaryimg{
+    position: relative;
+    top: 50px;
+    width: 600px;
+    position: relative;
+    z-index: 30;
+    border-radius: 20px;
+    animation: showopac 1s forwards;
+}
+
+
+
+.devbtn {
+    position: relative;
+    top: 730px;
+    right: 370px;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: transparent 0 0 0 3px,rgba(18, 18, 18, .1) 0 6px 20px;
+    box-sizing: border-box;
+    color: #121212;
+    cursor: pointer;
+    display: inline-flex;
+    flex: 1 1 auto;
+    font-family: Inter,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .2s,-webkit-box-shadow .2s;
+    white-space: nowrap;
+    border: 0;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+.boxdev{
+    position: absolute;
+    top: 70px;
+    width: 900px;
+    height: 200px;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 900px;
+    height: 800px;
+    background-color: #0e0f34;
+    animation: showopac 1s forwards;
+}
+
+
+.devbox{
+    width: 700px;
+    height: 200px;
+    background-color: #202746;
+}
+
+.devbox2{
+    margin-top: 30px;
+    width: 700px;
+    height: 500px;
+    background-color: #202746;
+}
+
+.devtext{
+    position: relative;
+    top: 5px;
+    color: #898ea4;
+    font-size: 16px;
+}
